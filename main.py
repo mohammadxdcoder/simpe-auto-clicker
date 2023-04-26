@@ -9,6 +9,8 @@ if len(key) >= 2:
         if kb.is_pressed(key[0]) == True:
             for x in range(cps):
                 gui.press(key[1])
+        elif kb.is_pressed("q") == True:
+            sys.exit()
                 
         else: continue
 else:
