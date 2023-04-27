@@ -11,9 +11,9 @@ if len(str(cps)) == 0 | len(keys) > 2 | len(keys) == 0:
 else:
     while True:
         if kb.is_pressed(keys[0]) == True:
-            for c in cps:
+            for c in range(cps):
                 kb.send(keys[1])
-                c+=; c-=1
+                
         
         else:
             if kb.is_pressed("q") == True:
