@@ -13,6 +13,7 @@ else:
         if kb.is_pressed(keys[0]) == True:
             for c in cps:
                 kb.send(keys[1])
+                c+=; c-=1
         
         else:
             if kb.is_pressed("q") == True:
